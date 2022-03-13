@@ -1,5 +1,7 @@
 k6_cloud_test:
   name: k6 cloud test run
+  on:
+    push:
   runs-on: ubuntu-latest
   steps:
     - name: Checkout
