@@ -7,7 +7,7 @@ export const options = {
     loadimpact: {
       projectID: 3574814,
       // Test runs with the same name groups test runs together
-      name: "YOUR TEST NAME"
+      name: "Thi"
     }
   }
 };

@@ -18,7 +18,7 @@ export default function () {
         'verify homepage text': (r) =>
                                     r.body.includes('Collection of simple web-pages suitable for load testing'),
        'body size is 11,105 bytes': (r) => 
-                                    r.body.length == 11105,
+                                    r.body.length == 11105,                             
      });
    
 }
